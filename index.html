@@ -4,180 +4,367 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Muhammad Shahzad Iqbal | Genomics & Computational Virology Lab</title>
+    <meta name="description" content="Official Academic Portfolio & Research Lab of Dr. Muhammad Shahzad Iqbal – Assistant Professor / Researcher in Genomics, NGS, Transcriptomics, and Viral Bioinformatics at University of Okara.">
+    <meta name="keywords" content="Muhammad Shahzad Iqbal, Genomics, NGS Expert, Bioinformatics, Transcriptomics, Molecular Virology, Host-Pathogen Interactions, University of Okara">
+    
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
-<body class="dark-theme">
+<body>
 
-    <!-- LEGO BLOCK: HEADER NAV -->
+    <!-- ============================================================
+         LEGO BLOCK: NAVIGATION HEADER
+         ============================================================ -->
     <header class="header">
         <div class="container nav-container">
             <a href="index.html" class="logo">
-                <span class="logo-dna">🧬</span>
-                <span class="logo-text">IQBAL LAB <span class="logo-sub">Genomics & Virology</span></span>
+                <span class="logo-title">M. Shahzad Iqbal, PhD</span>
+                <span class="logo-sub">Genomics & Computational Virology Lab</span>
             </a>
             <nav class="nav">
                 <a href="index.html" class="active">Home</a>
-                <a href="#about">PI Profile</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
                 <a href="#research">Research</a>
                 <a href="publications.html">Publications</a>
                 <a href="team.html">Lab Team</a>
-                <a href="#contact" class="nav-cta">Contact / Join</a>
+                <a href="#supervision">Supervision</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact" class="nav-contact-btn">Contact</a>
             </nav>
-            <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
         </div>
     </header>
 
-    <!-- LEGO BLOCK: HERO SECTION -->
-    <section class="hero">
-        <div class="hero-glow"></div>
-        <div class="container hero-content">
+    <!-- ============================================================
+         LEGO BLOCK: HERO SECTION
+         ============================================================ -->
+    <section id="home" class="hero">
+        <div class="container hero-grid">
             <div class="hero-text">
-                <div class="badge"><span class="badge-dot"></span> COMPUTATIONAL BIOLOGY & GENOMICS GROUP</div>
-                <h1 class="hero-title">Decoding Viral Dynamics & Host Genomics</h1>
-                <p class="hero-lead">Led by <strong>Dr. Muhammad Shahzad Iqbal</strong>, Assistant Professor / Lecturer in Biochemistry. We engineer reproducible bioinformatics pipelines, map host-derived miRNA regulation, and analyze high-throughput NGS data.</p>
+                <div class="academic-affiliation">
+                    Department of Biochemistry • University of Okara
+                </div>
+                <h1 class="hero-name">Dr. Muhammad Shahzad Iqbal</h1>
+                <p class="hero-title-sub">Lecturer in Biochemistry | NGS Expert | Computational Biologist</p>
+                <p class="hero-bio">
+                    Specializing in host–pathogen interactions, high-throughput sequencing analysis (WGS, WES, RNA-seq, smRNA-seq), transcriptomics, and computational approaches in molecular virology.
+                </p>
                 
-                <!-- METRICS STRIP -->
-                <div class="metrics-strip">
-                    <div class="m-item">
-                        <span class="m-val">402</span>
-                        <span class="m-lbl">Citations</span>
-                    </div>
-                    <div class="m-divider"></div>
-                    <div class="m-item">
-                        <span class="m-val">11</span>
-                        <span class="m-lbl">h-index</span>
-                    </div>
-                    <div class="m-divider"></div>
-                    <div class="m-item">
-                        <span class="m-val">28+</span>
-                        <span class="m-lbl">M.Phil Graduated</span>
-                    </div>
-                </div>
-
-                <div class="hero-actions">
-                    <a href="publications.html" class="btn btn-emerald">Explore Research Papers</a>
-                    <a href="team.html" class="btn btn-outline">Meet Lab Scholars</a>
+                <div class="hero-ctas">
+                    <a href="publications.html" class="btn btn-primary">View Publications</a>
+                    <a href="team.html" class="btn btn-secondary">Lab Team (M.Phil Scholars)</a>
+                    <a href="assets/CV_Muhammad_Shahzad_Iqbal.pdf" class="btn btn-outline" download>Download CV</a>
                 </div>
             </div>
 
-            <div class="hero-card-wrapper">
-                <div class="pi-card">
-                    <div class="pi-img-frame">
-                        <img src="assets/profile.png" alt="Dr. Muhammad Shahzad Iqbal">
+            <div class="hero-sidebar">
+                <div class="profile-card">
+                    <img src="assets/profile.png" alt="Dr. Muhammad Shahzad Iqbal" class="profile-img">
+                    <div class="profile-meta">
+                        <strong>Dr. Muhammad Shahzad Iqbal</strong>
+                        <span>Lecturer (Biochemistry)</span>
+                        <span class="univ-tag">University of Okara, Pakistan</span>
                     </div>
-                    <div class="pi-details">
-                        <h3>Dr. M. Shahzad Iqbal</h3>
-                        <p>Principal Investigator</p>
-                        <span class="institution-tag">🏛️ University of Okara</span>
+                </div>
+
+                <div class="quick-stats-box">
+                    <div class="stat-item">
+                        <span class="stat-num">402</span>
+                        <span class="stat-lbl">Citations</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">11</span>
+                        <span class="stat-lbl">h-index</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">28</span>
+                        <span class="stat-lbl">M.Phil. Done</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">50+</span>
+                        <span class="stat-lbl">NGS Trained</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- LEGO BLOCK: FEATURED TEAM SECTION (Embedded in Home) -->
-    <section class="section section-darker">
+    <!-- ============================================================
+         LEGO BLOCK: ABOUT PI & ROLES
+         ============================================================ -->
+    <section id="about" class="section">
         <div class="container">
-            <div class="section-header-flex">
-                <div>
-                    <span class="section-eyebrow">// LAB MEMBERS</span>
-                    <h2 class="section-title">Current M.Phil Scholars <span class="highlight-tag">2025–2027</span></h2>
-                </div>
-                <a href="team.html" class="view-all-link">View Full Lab Roster →</a>
-            </div>
+            <h2 class="section-heading">About the Principal Investigator</h2>
+            <div class="about-grid">
+                <div class="about-content">
+                    <p class="lead-text">
+                        I am a molecular biologist and bioinformatician currently serving as <strong>Lecturer in Biochemistry</strong> at the 
+                        <a href="https://www.uo.edu.pk/faculty/dr-muhammad-shahzad--iqbal-678417826438dff4d6f32c6f" target="_blank" rel="noopener">University of Okara</a>, Pakistan.
+                    </p>
+                    <p>
+                        My research group focuses on understanding host–pathogen interactions at the molecular and genomic level, with particular emphasis on viral bioinformatics, transcriptomics, and Next-Generation Sequencing (NGS) pipeline development.
+                    </p>
 
-            <div class="team-mini-grid">
-                <div class="mini-member-card">
-                    <div class="avatar-placeholder">👨‍🔬</div>
-                    <h4>Muhammad Salman</h4>
-                    <p>M.Phil Scholar (2025–2027)</p>
-                    <span class="topic-tag">Genomic Data Science</span>
+                    <h3 class="sub-heading">Academic & Administrative Leadership</h3>
+                    <ul class="academic-list">
+                        <li><strong>Deputy Director</strong> – Office of Research, Innovation & Commercialization (ORIC), University of Okara.</li>
+                        <li><strong>In-Charge</strong> – Department of Food Sciences & Technology, University of Okara.</li>
+                        <li><strong>PhD & Postgraduate Advisor</strong> – Supervising doctoral and master's theses in biochemistry, genetics, and viral computational biology.</li>
+                    </ul>
+
+                    <h3 class="sub-heading">Core Research Specializations</h3>
+                    <ul class="check-list">
+                        <li>Genomics & host–pathogen interaction mapping</li>
+                        <li>Molecular Biology & Molecular Virology</li>
+                        <li>Next-Generation Sequencing (NGS: WGS, WES, RNA-seq, smRNA-seq)</li>
+                        <li>Computational prediction of host-derived microRNAs against viral pathogens</li>
+                        <li>Reproducible bioinformatics pipeline engineering for complex/polyploid genomes</li>
+                    </ul>
                 </div>
-                <div class="mini-member-card">
-                    <div class="avatar-placeholder">👩‍🔬</div>
-                    <h4>Aleeza Khurshid</h4>
-                    <p>M.Phil Scholar (2025–2027)</p>
-                    <span class="topic-tag">Computational Virology</span>
-                </div>
-                <div class="mini-member-card">
-                    <div class="avatar-placeholder">👩‍🔬</div>
-                    <h4>Tayyaba Noor</h4>
-                    <p>M.Phil Scholar (2025–2027)</p>
-                    <span class="topic-tag">NGS & Transcriptomics</span>
+
+                <div class="about-side-box">
+                    <div class="info-block">
+                        <h4>Contact Information</h4>
+                        <p><strong>Official Email:</strong><br><a href="mailto:shahzad.iqbal@uo.edu.pk">shahzad.iqbal@uo.edu.pk</a></p>
+                        <p><strong>Personal Email:</strong><br><a href="mailto:shzad@live.com">shzad@live.com</a></p>
+                        <p><strong>Phone:</strong><br><a href="tel:+923347041004">+92-334-7041004</a></p>
+                        <p><strong>University Profile:</strong><br><a href="https://www.uo.edu.pk/faculty/dr-muhammad-shahzad--iqbal-678417826438dff4d6f32c6f" target="_blank">Official Faculty Page</a></p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- LEGO BLOCK: RESEARCH THRUSTS -->
+    <!-- ============================================================
+         LEGO BLOCK: ACADEMIC & PROFESSIONAL EXPERIENCE
+         ============================================================ -->
+    <section id="experience" class="section section-alt">
+        <div class="container">
+            <h2 class="section-heading">Academic & Professional Appointments</h2>
+            
+            <div class="experience-timeline">
+                
+                <div class="exp-item">
+                    <div class="exp-date">Aug 2022 – Present</div>
+                    <div class="exp-body">
+                        <h3>Lecturer (Biochemistry)</h3>
+                        <div class="exp-org">University of Okara, Pakistan</div>
+                        <p>Deputy Director (ORIC) • In-Charge, Department of Food Sciences & Technology • Supervising PhD and postgraduate research students in molecular biology & genomics.</p>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="exp-date">Sep 2021 – Aug 2022</div>
+                    <div class="exp-body">
+                        <h3>Assistant Professor (Biotechnology)</h3>
+                        <div class="exp-org">University of Central Punjab, Pakistan</div>
+                        <p>Research supervision and undergraduate/graduate teaching in genetic engineering, biotechnology, and molecular diagnostics.</p>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="exp-date">Mar 2020 – Sep 2021</div>
+                    <div class="exp-body">
+                        <h3>Senior Lecturer (Molecular Biology & Bioinformatics)</h3>
+                        <div class="exp-org">The University of Lahore, Pakistan</div>
+                        <p>Managed computational server infrastructure for multi-omics genomics research. Taught advanced bioinformatics, computational biology, and NGS workflow execution.</p>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="exp-date">May 2018 – Feb 2020</div>
+                    <div class="exp-body">
+                        <h3>NGS Application Scientist / Regional Manager</h3>
+                        <div class="exp-org">Molecular Products Co. (BGI Pakistan)</div>
+                        <p>Analyzed and managed 50+ NGS projects (Whole Genome Sequencing, Whole Exome Sequencing, RNA-seq, small RNA-seq). Developed automated data analysis pipelines and trained over 50 researchers nationwide.</p>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="exp-date">Jul 2017 – Jan 2018</div>
+                    <div class="exp-body">
+                        <h3>University Research Associate (IRSIP Fellow)</h3>
+                        <div class="exp-org">QAAFI, The University of Queensland, Brisbane, Australia</div>
+                        <p>Supervisor: <a href="https://about.uq.edu.au/experts/1005" target="_blank" rel="noopener">Prof. Robert Henry</a>.<br>Conducted large-scale sugarcane transcriptome analysis (72+ RNA-Seq samples) for red rot responsive differential gene expression profiling.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         LEGO BLOCK: RESEARCH FOCUS AREAS
+         ============================================================ -->
     <section id="research" class="section">
         <div class="container">
-            <div class="section-header">
-                <span class="section-eyebrow">// SCIENTIFIC SCOPE</span>
-                <h2 class="section-title">Primary Research Focus</h2>
-            </div>
-
-            <div class="thrust-cards-grid">
-                <div class="thrust-card">
-                    <div class="tc-icon">🦠</div>
-                    <h3>Viral Bioinformatics</h3>
-                    <p>In silico discovery of host-derived microRNAs targeting human and agricultural viral genomes (RSV, Influenza, Mumps, MCMV).</p>
+            <h2 class="section-heading">Research Focus & Key Domains</h2>
+            <p class="section-lead">My research integrates experimental molecular biology with computational genomics to decipher host–pathogen interactions, viral dynamics, and gene expression regulation.</p>
+            
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="rc-num">01</div>
+                    <h3>Genomics (Host–Pathogen Interactions)</h3>
+                    <p>Deciphering molecular crosstalk between host genomes and invading pathogens using high-throughput sequencing and genomic colocalization analysis.</p>
                 </div>
-                <div class="thrust-card">
-                    <div class="tc-icon">🧬</div>
+                <div class="research-card">
+                    <div class="rc-num">02</div>
+                    <h3>Molecular Virology</h3>
+                    <p>Computational prediction and molecular docking of microRNAs against plant and human viruses (RSV, Influenza A/C, Mumps, MCMV, Sugarcane Bacilliform Virus).</p>
+                </div>
+                <div class="research-card">
+                    <div class="rc-num">03</div>
                     <h3>NGS & Transcriptomics</h3>
-                    <p>High-throughput RNA-Seq, Whole Exome, and smRNA-seq data processing pipelines tailored for polyploid genomes and complex traits.</p>
+                    <p>Custom pipeline creation for differential expression analysis (DESeq2, EdgeR), variant calling, and transcriptome profiling in complex polyploid crop genomes.</p>
                 </div>
-                <div class="thrust-card">
-                    <div class="tc-icon">⚡</div>
-                    <h3>Epigenomics & Small RNA</h3>
-                    <p>Investigating mobile small RNAs as key drivers of systemic adaptation, environmental stress response, and epigenomic remodeling.</p>
+                <div class="research-card">
+                    <div class="rc-num">04</div>
+                    <h3>Host-Derived microRNA Prediction</h3>
+                    <p>Identifying cross-kingdom and host-encoded microRNAs capable of silencing viral genomes via ingestion or target-site transcript regulation.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- LEGO BLOCK: CONTACT & PORTALS -->
-    <section id="contact" class="section section-darker">
+    <!-- ============================================================
+         LEGO BLOCK: SUPERVISION & MENTORSHIP
+         ============================================================ -->
+    <section id="supervision" class="section section-alt">
         <div class="container">
-            <div class="section-header text-center">
-                <span class="section-eyebrow">// GET IN TOUCH</span>
-                <h2 class="section-title">Contact & Academic Networks</h2>
+            <h2 class="section-heading">Research Supervision & Mentorship</h2>
+            
+            <div class="stats-row">
+                <div class="stat-card">
+                    <span class="number">2</span>
+                    <span class="label">PhD Students (Ongoing)</span>
+                </div>
+                <div class="stat-card">
+                    <span class="number">28</span>
+                    <span class="label">M.Phil. Students (Completed)</span>
+                </div>
+                <div class="stat-card">
+                    <span class="number">40+</span>
+                    <span class="label">BS Students Supervised</span>
+                </div>
             </div>
 
+            <div class="supervision-note">
+                <p><strong>Note on Research Direction:</strong> The majority of M.Phil. research projects in our lab focus on computational prediction of human-derived and plant-derived microRNAs against a wide array of viral pathogens, alongside transcriptomic profiling in stress adaptation.</p>
+                <a href="team.html" class="inline-link">Meet Active M.Phil Scholars →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         LEGO BLOCK: SKILLS & TECHNICAL EXPERTISE
+         ============================================================ -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-heading">Technical Skills & Lab Capabilities</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-column">
+                    <h3>NGS & Bioinformatics</h3>
+                    <ul>
+                        <li>RNA-Seq analysis pipelines (EdgeR, DESeq2)</li>
+                        <li>Whole Genome (WGS) & Whole Exome (WES) analysis</li>
+                        <li>Virus detection in transcriptomic data</li>
+                        <li>Differential expression & variant calling</li>
+                        <li>GO & KEGG Pathway Enrichment</li>
+                        <li>Custom pipelines for polyploid crop genomes</li>
+                    </ul>
+                </div>
+
+                <div class="skill-column">
+                    <h3>Programming & Computing</h3>
+                    <ul>
+                        <li>R (Advanced statistical data analysis)</li>
+                        <li>Python for bioinformatics workflows</li>
+                        <li>Linux / Bash CLI & HPC Clusters</li>
+                        <li>Reproducible computational pipeline development</li>
+                    </ul>
+                </div>
+
+                <div class="skill-column">
+                    <h3>Molecular Biology</h3>
+                    <ul>
+                        <li>qRT-PCR and advanced PCR techniques</li>
+                        <li>High-throughput DNA / RNA extraction</li>
+                        <li>Gene cloning & bacterial transformation</li>
+                        <li>Sanger sequencing data curation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         LEGO BLOCK: CONTACT & ACADEMIC PORTALS
+         ============================================================ -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-heading">Get in Touch</h2>
+            <p class="section-lead">Open to academic collaborations, research discussions, grant applications, and postgraduate supervision inquiries.</p>
+            
             <div class="contact-grid">
-                <a href="mailto:shahzad.iqbal@uo.edu.pk" class="c-card">
-                    <span class="c-icon">✉️</span>
-                    <div>
-                        <strong>University Email</strong>
-                        <span>shahzad.iqbal@uo.edu.pk</span>
-                    </div>
+                <a href="mailto:shahzad.iqbal@uo.edu.pk" class="contact-card">
+                    <strong>University Email</strong>
+                    <span>shahzad.iqbal@uo.edu.pk</span>
                 </a>
-                <a href="https://orcid.org/0000-0001-5145-3075" target="_blank" class="c-card">
-                    <span class="c-icon">🆔</span>
-                    <div>
-                        <strong>ORCID iD</strong>
-                        <span>0000-0001-5145-3075</span>
-                    </div>
+                <a href="mailto:shzad@live.com" class="contact-card">
+                    <strong>Personal Email</strong>
+                    <span>shzad@live.com</span>
                 </a>
-                <a href="https://scholar.google.com/citations?user=-gzVrr4AAAAJ" target="_blank" class="c-card">
-                    <span class="c-icon">🎓</span>
-                    <div>
-                        <strong>Google Scholar</strong>
-                        <span>400+ Citations • h-index 11</span>
-                    </div>
+                <a href="tel:+923347041004" class="contact-card">
+                    <strong>Phone / WhatsApp</strong>
+                    <span>+92-334-7041004</span>
+                </a>
+                <a href="https://www.uo.edu.pk/faculty/dr-muhammad-shahzad--iqbal-678417826438dff4d6f32c6f" target="_blank" rel="noopener" class="contact-card">
+                    <strong>University Portal</strong>
+                    <span>Official Faculty Directory</span>
+                </a>
+            </div>
+
+            <h3 class="sub-heading text-center" style="margin-top: 3.5rem;">Academic Profiles & Indexes</h3>
+            <div class="profiles-grid">
+                <a href="https://orcid.org/0000-0001-5145-3075" target="_blank" rel="noopener" class="profile-link-card">
+                    <strong>ORCID</strong>
+                    <span>0000-0001-5145-3075</span>
+                </a>
+                <a href="https://scholar.google.com/citations?user=-gzVrr4AAAAJ" target="_blank" rel="noopener" class="profile-link-card">
+                    <strong>Google Scholar</strong>
+                    <span>402 Citations • h-index 11</span>
+                </a>
+                <a href="https://www.researchgate.net/profile/Muhammad-Shahzad-Iqbal" target="_blank" rel="noopener" class="profile-link-card">
+                    <strong>ResearchGate</strong>
+                    <span>379 Citations • RI 293.2</span>
+                </a>
+                <a href="https://www.webofscience.com/wos/author/record/M-8157-2017" target="_blank" rel="noopener" class="profile-link-card">
+                    <strong>Web of Science</strong>
+                    <span>ResearcherID: M-8157-2017</span>
+                </a>
+                <a href="https://loop.frontiersin.org/people/274010/overview" target="_blank" rel="noopener" class="profile-link-card">
+                    <strong>Loop (Frontiers)</strong>
+                    <span>Author Profile</span>
+                </a>
+                <a href="https://sciprofiles.com/profile/311476" target="_blank" rel="noopener" class="profile-link-card">
+                    <strong>SciProfiles</strong>
+                    <span>Verified Researcher</span>
                 </a>
             </div>
         </div>
     </section>
 
+    <!-- ============================================================
+         LEGO BLOCK: FOOTER
+         ============================================================ -->
     <footer class="footer">
-        <div class="container footer-content">
-            <p>© 2026 Dr. Muhammad Shahzad Iqbal Lab. All rights reserved.</p>
-            <p class="footer-sub">University of Okara • Department of Biochemistry</p>
+        <div class="container">
+            <p>© 2026 Dr. Muhammad Shahzad Iqbal. All rights reserved.</p>
+            <p class="footer-sub">Genomics & Computational Virology Laboratory • Department of Biochemistry • University of Okara</p>
         </div>
     </footer>
 

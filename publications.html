@@ -4,205 +4,367 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publications | Dr. Muhammad Shahzad Iqbal</title>
-    <meta name="description" content="Peer-reviewed scientific publications, journal papers, and research preprints by Dr. Muhammad Shahzad Iqbal.">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Header Navigation -->
     <header class="header">
         <div class="container nav-container">
             <a href="index.html" class="logo">
-                <span class="logo-mark">🧬</span>
-                <span class="logo-text">Dr. M. Shahzad Iqbal</span>
+                <span class="logo-title">M. Shahzad Iqbal, PhD</span>
+                <span class="logo-sub">Genomics & Computational Virology Lab</span>
             </a>
             <nav class="nav">
                 <a href="index.html">Home</a>
                 <a href="index.html#about">About</a>
-                <a href="index.html#research">Research & Lab</a>
                 <a href="index.html#experience">Experience</a>
+                <a href="index.html#research">Research</a>
                 <a href="publications.html" class="active">Publications</a>
+                <a href="team.html">Lab Team</a>
                 <a href="index.html#supervision">Supervision</a>
-                <a href="index.html#skills">Capabilities</a>
-                <a href="index.html#contact" class="nav-cta">Contact</a>
+                <a href="index.html#contact" class="nav-contact-btn">Contact</a>
             </nav>
-            <button class="menu-toggle" aria-label="Toggle navigation menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+            <button class="menu-toggle" aria-label="Toggle menu">☰</button>
         </div>
     </header>
 
-    <main class="section">
+    <section class="section">
         <div class="container">
-            <div class="section-header text-center">
-                <span class="section-eyebrow">Scholarly Output</span>
-                <h2 class="section-title">Peer-Reviewed Publications</h2>
-                <p class="section-intro">
-                    Complete record of original research articles, high-impact journal publications, and preprints in genomic bioinformatics and molecular virology.
-                </p>
-                <div class="scholar-badge-wrapper">
-                    <a href="https://scholar.google.com/citations?hl=en&user=-gzVrr4AAAAJ" target="_blank" rel="noopener" class="btn btn-secondary">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a12 12 0 1 1 12-12 12.013 12.013 0 0 1-12 12zm0-22a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2z"/></svg>
-                        <span>Live Google Scholar Feed</span>
-                    </a>
+            <h1 class="section-heading">Scholarly Publications</h1>
+            <p class="section-lead">
+                Peer-reviewed journal articles, preprints, and conference proceedings in molecular virology, genomics, transcriptomics, and computational biology. 
+                <a href="https://scholar.google.com/citations?hl=en&user=-gzVrr4AAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener">View on Google Scholar →</a>
+            </p>
+
+            <!-- Research Visual Highlights -->
+            <div class="highlight-images">
+                <div class="highlight-box">
+                    <img src="assets/highlight_img1.png" alt="Research Highlight 1" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="img-fallback"><span>🧬</span><p>GWAS & Adipose eQTL Colocalization</p></div>
+                </div>
+                <div class="highlight-box">
+                    <img src="assets/highlight_img2.png" alt="Research Highlight 2" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="img-fallback"><span>🦠</span><p>RSV & Influenza Computational Docking</p></div>
+                </div>
+                <div class="highlight-box">
+                    <img src="assets/highlight_img3.png" alt="Research Highlight 3" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="img-fallback"><span>🌱</span><p>Crop miRNA Silencing & Plant Immunity</p></div>
+                </div>
+                <div class="highlight-box">
+                    <img src="assets/highlight_img4.png" alt="Research Highlight 4" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="img-fallback"><span>📊</span><p>Polyploid Transcriptome Profiling</p></div>
                 </div>
             </div>
 
-            <!-- Publications Filter Tabs -->
-            <div class="pub-tabs">
-                <button class="tab-btn active" data-filter="all">All Articles</button>
-                <button class="tab-btn" data-filter="2026">2026 Preprints & Papers</button>
-                <button class="tab-btn" data-filter="recent">2024 – 2025</button>
-                <button class="tab-btn" data-filter="archive">2015 – 2023</button>
-            </div>
-
-            <!-- Graphical Research Highlights -->
-            <div class="research-gallery">
-                <h3>Visual Abstract Highlights</h3>
-                <div class="highlight-images">
-                    <div class="highlight-box">
-                        <img src="assets/highlight_img1.png" alt="Research Highlight 1" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                        <div class="fallback-placeholder">
-                            <span>🧬</span>
-                            <p>Adipose eQTL & GWAS Colocalization</p>
-                        </div>
-                    </div>
-                    <div class="highlight-box">
-                        <img src="assets/highlight_img2.png" alt="Research Highlight 2" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                        <div class="fallback-placeholder">
-                            <span>🦠</span>
-                            <p>RSV & Influenza Viral Target Prediction</p>
-                        </div>
-                    </div>
-                    <div class="highlight-box">
-                        <img src="assets/highlight_img3.png" alt="Research Highlight 3" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                        <div class="fallback-placeholder">
-                            <span>🌱</span>
-                            <p>Crop miRNA Silencing Constructs</p>
-                        </div>
-                    </div>
-                    <div class="highlight-box">
-                        <img src="assets/highlight_img4.png" alt="Research Highlight 4" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                        <div class="fallback-placeholder">
-                            <span>📊</span>
-                            <p>Polyploid Transcriptome Pipelines</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Publication List Container -->
-            <div class="pub-list">
+            <!-- Complete List of All Publications -->
+            <div class="publications-list">
 
                 <!-- 2026 -->
-                <div class="pub-group" data-category="2026">
-                    <h3 class="year-header">2026</h3>
-                    
+                <div class="year-block">
+                    <h2 class="year-heading">2026</h2>
+
                     <article class="pub-card">
-                        <div class="pub-tag preprint">Preprint / medRxiv</div>
-                        <h4 class="pub-title">Genome-wide colocalization of body fat distribution GWAS and subcutaneous adipose eQTLs identifies SNX10, DGKQ, and CBX3 as candidate causal genes for cardiometabolic disease</h4>
+                        <span class="pub-type">Preprint</span>
+                        <h3 class="pub-title">Genome-wide colocalization of body fat distribution GWAS and subcutaneous adipose eQTLs identifies SNX10, DGKQ, and CBX3 as candidate causal genes for cardiometabolic disease</h3>
                         <div class="pub-authors"><strong>MS Iqbal</strong></div>
-                        <div class="pub-journal">medRxiv (2026) • doi: 10.1101/2026.medrxiv</div>
+                        <div class="pub-journal">medRxiv, 2026.06.13.26355580 (2026)</div>
                     </article>
 
                     <article class="pub-card">
-                        <div class="pub-tag journal">Peer-Reviewed</div>
-                        <h4 class="pub-title">Mobile Small RNAs as Mediators of Stress-Induced Epigenomic Remodeling and Systemic Stress Adaptation</h4>
-                        <div class="pub-authors">MD Junaid, <strong>MS Iqbal</strong>, et al.</div>
-                        <div class="pub-journal">Frontiers in Epigenetics and Epigenomics (2026)</div>
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Mobile Small RNAs as Mediators of Stress-Induced Epigenomic Remodeling and Systemic Stress Adaptation</h3>
+                        <div class="pub-authors">MD Junaid, <strong>MS Iqbal</strong>, MW Nasir, W Akhter</div>
+                        <div class="pub-journal">Frontiers in Epigenetics and Epigenomics 4, 1827933 (2026)</div>
+                        <div class="pub-citations">Citations: 2</div>
                     </article>
 
                     <article class="pub-card">
-                        <div class="pub-tag journal">Peer-Reviewed</div>
-                        <h4 class="pub-title">Assessment of miRNAs as transcriptional regulators in respiratory syncytial virus infection through computational analysis and molecular docking studies</h4>
-                        <div class="pub-authors">M Hassan, <strong>MS Iqbal</strong>, et al.</div>
-                        <div class="pub-journal">PLoS ONE (2026)</div>
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Assessment of miRNAs as transcriptional regulators in respiratory syncytial virus infection through computational analysis and molecular docking studies</h3>
+                        <div class="pub-authors">M Hassan, <strong>MS Iqbal</strong>, M Yasir, W Chun, Z Yaseen, S Shahzadi, et al.</div>
+                        <div class="pub-journal">PLoS One 21 (3), e0345571 (2026)</div>
+                        <div class="pub-citations">Citations: 1</div>
                     </article>
                 </div>
 
                 <!-- 2024 - 2025 -->
-                <div class="pub-group" data-category="recent">
-                    <h3 class="year-header">2024 – 2025</h3>
+                <div class="year-block">
+                    <h2 class="year-heading">2024 – 2025</h2>
 
                     <article class="pub-card">
-                        <div class="pub-tag journal">Nature Springer</div>
-                        <h4 class="pub-title">Exploration of microRNAs as transcriptional regulator in mumps virus infection through computational studies</h4>
-                        <div class="pub-authors">M Hassan, S Shahzadi, <strong>MS Iqbal</strong>, et al.</div>
-                        <div class="pub-journal">Scientific Reports (2024)</div>
+                        <span class="pub-type">Conference Abstract</span>
+                        <h3 class="pub-title">BPS2025 - Computational evaluation of the potential role of microRNAs in influenza A virus infection</h3>
+                        <div class="pub-authors">M Hassan, <strong>M Iqbal</strong>, S Shahzadi, A Kloczkowski</div>
+                        <div class="pub-journal">Biophysical Journal 124 (3), 418a (2025)</div>
                     </article>
 
                     <article class="pub-card">
-                        <div class="pub-tag journal">Nature Springer</div>
-                        <h4 class="pub-title">Target prediction of potential candidate miRNAs from Oryza sativa to silence the Pyricularia oryzae genome in rice blast</h4>
-                        <div class="pub-authors">T Suddal, et al. (including <strong>MS Iqbal</strong>)</div>
-                        <div class="pub-journal">Scientific Reports (2024)</div>
+                        <span class="pub-type">Author Correction</span>
+                        <h3 class="pub-title">Author Correction: Target prediction of potential candidate miRNAs from Oryza sativa to silence the Pyricularia oryzae genome in rice blast</h3>
+                        <div class="pub-authors">T Suddal, MF Awan, S Ali, MF Sarwar, <strong>S Iqbal</strong>, Q Ali, MA Javed, et al.</div>
+                        <div class="pub-journal">Scientific Reports 14, 27255 (2024)</div>
                     </article>
 
                     <article class="pub-card">
-                        <div class="pub-tag conference">Abstract / Biophysical Journal</div>
-                        <h4 class="pub-title">BPS2025 – Computational evaluation of the potential role of microRNAs in influenza A virus infection</h4>
-                        <div class="pub-authors">M Hassan, <strong>MS Iqbal</strong>, et al.</div>
-                        <div class="pub-journal">Biophysical Journal (2025)</div>
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Target prediction of potential candidate miRNAs from Oryza sativa to silence the Pyricularia oryzae genome in rice blast</h3>
+                        <div class="pub-authors">T Suddal, MF Awan, S Ali, MF Sarwar, <strong>S Iqbal</strong>, Q Ali, MA Javed, et al.</div>
+                        <div class="pub-journal">Scientific Reports 14 (1), 21813 (2024)</div>
+                        <div class="pub-citations">Citations: 7</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Exploration of microRNAs as transcriptional regulator in mumps virus infection through computational studies</h3>
+                        <div class="pub-authors">M Hassan, S Shahzadi, <strong>MS Iqbal</strong>, Z Yaseen, A Kloczkowski</div>
+                        <div class="pub-journal">Scientific Reports 14 (1), 18850 (2024)</div>
+                        <div class="pub-citations">Citations: 4</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Conference Proceedings</span>
+                        <h3 class="pub-title">Bioinformatics-Based Analysis Provides a Deeper Understanding of How MicroRNAs Control Transcriptional Activity in Mumps Virus Infection</h3>
+                        <div class="pub-authors">S Shahzadi, M Hassan, <strong>MS Iqbal</strong>, Z Yaseen, A Kloczkowski</div>
+                        <div class="pub-journal">International Work-Conference on Bioinformatics and Biomedical Engineering (2024)</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Conference Abstract</span>
+                        <h3 class="pub-title">MicroRNAs control the transcriptional profiling in mumps virus infection: A computational analysis</h3>
+                        <div class="pub-authors">S Shahzadi, M Hassan, Z Yaseen, <strong>M Iqbal</strong>, A Kloczkowski</div>
+                        <div class="pub-journal">Biophysical Journal 123 (3), 229a (2024)</div>
                     </article>
                 </div>
 
-                <!-- Earlier Years -->
-                <div class="pub-group" data-category="archive">
-                    <h3 class="year-header">2015 – 2023 Key Works</h3>
+                <!-- 2021 - 2023 -->
+                <div class="year-block">
+                    <h2 class="year-heading">2021 – 2023</h2>
 
                     <article class="pub-card">
-                        <div class="pub-tag high-impact">High Citation (43)</div>
-                        <h4 class="pub-title">Silencing of multiple target genes via ingestion of dsRNA and PMRi affects development and survival in Helicoverpa armigera</h4>
-                        <div class="pub-authors">MN Sharif, <strong>MS Iqbal</strong>, et al.</div>
-                        <div class="pub-journal">Scientific Reports (2022)</div>
-                    </article>
-
-                    <article class="pub-card">
-                        <div class="pub-tag high-impact">High Citation (41)</div>
-                        <h4 class="pub-title">In Silico MCMV Silencing Concludes Potential Host-Derived miRNAs in Maize</h4>
-                        <div class="pub-authors"><strong>MS Iqbal</strong>, et al.</div>
-                        <div class="pub-journal">Frontiers in Plant Science (2017)</div>
-                    </article>
-
-                    <article class="pub-card">
-                        <div class="pub-tag journal">Peer-Reviewed</div>
-                        <h4 class="pub-title">Prediction of Host-Derived miRNAs with the Potential to Target PVY in Potato Plants</h4>
-                        <div class="pub-authors"><strong>MS Iqbal</strong>, et al.</div>
-                        <div class="pub-journal">Frontiers in Genetics (2016)</div>
-                    </article>
-
-                    <article class="pub-card">
-                        <div class="pub-tag journal">Peer-Reviewed</div>
-                        <h4 class="pub-title">In silico identification of sugarcane genome encoded microRNAs targeting sugarcane bacilliform virus</h4>
-                        <div class="pub-authors">MA Ashraf, et al. (including <strong>MS Iqbal</strong>)</div>
-                        <div class="pub-journal">PLoS ONE (2022)</div>
-                    </article>
-
-                    <article class="pub-card">
-                        <div class="pub-tag journal">Peer-Reviewed</div>
-                        <h4 class="pub-title">Genome-wide identification of cotton microRNAs predicted for targeting cotton leaf curl Kokhran virus-Lucknow</h4>
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Genome-wide identification of cotton microRNAs predicted for targeting cotton leaf curl Kokhran virus-Lucknow</h3>
                         <div class="pub-authors">MA Ashraf, JK Brown, <strong>MS Iqbal</strong>, N Yu</div>
-                        <div class="pub-journal">Microbiology Research (2023)</div>
+                        <div class="pub-journal">Microbiology Research 15 (1), 1-19 (2023)</div>
+                        <div class="pub-citations">Citations: 10</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Expression Studies of Synthetic Sucrose Isomerase Gene 1 (SySIG1) in Saccharum officinarum L</h3>
+                        <div class="pub-authors">MF Awan, S Ali, I Ullah, A Ullah, M Tariq, <strong>MS Iqbal</strong>, A Khalid, S Fatima, et al.</div>
+                        <div class="pub-journal">Plant Molecular Biology Reporter 41 (4), 587-599 (2023)</div>
+                        <div class="pub-citations">Citations: 2</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Enhancement of healthful novel sugar contents in genetically engineered sugarcane juice integrated with molecularly characterized ThSyGII (CEMB-SIG2)</h3>
+                        <div class="pub-authors">MF Awan, S Ali, <strong>MS Iqbal</strong>, MN Sharif, Q Ali, IA Nasir</div>
+                        <div class="pub-journal">Scientific Reports 12 (1), 18621 (2022)</div>
+                        <div class="pub-citations">Citations: 7</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Silencing of multiple target genes via ingestion of dsRNA and PMRi affects development and survival in Helicoverpa armigera</h3>
+                        <div class="pub-authors">MN Sharif, <strong>MS Iqbal</strong>, R Alam, MF Awan, M Tariq, Q Ali, IA Nasir</div>
+                        <div class="pub-journal">Scientific Reports 12 (1), 10405 (2022)</div>
+                        <div class="pub-citations">Citations: 43</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Prediction of site directed miRNAs as key players of transcriptional regulators against influenza C virus infection through computational approaches</h3>
+                        <div class="pub-authors">M Hassan, <strong>MS Iqbal</strong>, S Naqvi, H Alashwal, AA Moustafa, A Kloczkowski</div>
+                        <div class="pub-journal">Frontiers in Molecular Biosciences 9, 866072 (2022)</div>
+                        <div class="pub-citations">Citations: 16</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">In silico identification of sugarcane (Saccharum officinarum L.) genome encoded microRNAs targeting sugarcane bacilliform virus</h3>
+                        <div class="pub-authors">MA Ashraf, X Feng, X Hu, F Ashraf, L Shen, <strong>MS Iqbal</strong>, S Zhang</div>
+                        <div class="pub-journal">PloS One 17 (1), e0261807 (2022)</div>
+                        <div class="pub-citations">Citations: 32</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">In silico prediction of potential miRNAs to target ZYMV in Cucumis melo</h3>
+                        <div class="pub-authors">MN Shahid, S Rashid, <strong>MS Iqbal</strong>, A Jamal, S Khalid</div>
+                        <div class="pub-journal">Journal Record, 12 (2022)</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">In silico plum pox virus silencing via host-retrieved miRNAs in peach plant</h3>
+                        <div class="pub-authors">MN Shahid, S Shehnaz, <strong>MS Iqbal</strong>, A Shabbeer, A Jamal, S Khalid</div>
+                        <div class="pub-journal">Current Science 121 (10), 1316-1322 (2021)</div>
                     </article>
                 </div>
 
-            </div>
+                <!-- 2018 - 2020 -->
+                <div class="year-block">
+                    <h2 class="year-heading">2018 – 2020</h2>
 
-            <div class="scholar-footer-note">
-                <p>For complete co-author lists, patents, and live updates, visit <a href="https://scholar.google.com/citations?hl=en&user=-gzVrr4AAAAJ" target="_blank" rel="noopener">Dr. Shahzad Iqbal's Google Scholar Profile</a>.</p>
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Salt tolerance of potato genetically engineered with the Atriplex canescens BADH gene</h3>
+                        <div class="pub-authors">A Ali, Q Ali, <strong>MS Iqbal</strong>, IA Nasir, X Wang</div>
+                        <div class="pub-journal">Biol. Plant 64, 271-279 (2020)</div>
+                        <div class="pub-citations">Citations: 26</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Identification of three cyprinidae family members through cytochrome oxidase I</h3>
+                        <div class="pub-authors">S Sherzada, MN Khan, ME Babar, M Idrees, A Wajid, MN Sharif, <strong>MS Iqbal</strong>, et al.</div>
+                        <div class="pub-journal">Pakistan J. Zool 52 (1), 1-4 (2020)</div>
+                        <div class="pub-citations">Citations: 9</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Genetic variability of sugarcane genotypes for red rot</h3>
+                        <div class="pub-authors"><strong>M Iqbal</strong>, B Tabassum, MF Awan, M Tariq, Q Ali, MN Sharif, IA Nasir</div>
+                        <div class="pub-journal">Genetics and Molecular Research 19 (1), gmr16039978 (2020)</div>
+                        <div class="pub-citations">Citations: 4</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Knock down of molt regulating gene for development control of Helicoverpa armigera</h3>
+                        <div class="pub-authors">MN Sharif, <strong>MS Iqbal</strong>, R Alam, B Tabassum, MF Awan, Q Ali, IA Nasir</div>
+                        <div class="pub-journal">Genetics and Molecular Research 19 (2), 16039978 (2020)</div>
+                        <div class="pub-citations">Citations: 2</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Target prediction of candidate miRNAs from Oryza sativa for silencing the RYMV genome</h3>
+                        <div class="pub-authors">B Jabbar, <strong>MS Iqbal</strong>, AA Batcho, IA Nasir, B Rashid, T Husnain, RJ Henry</div>
+                        <div class="pub-journal">Computational Biology and Chemistry 83, 107-127 (2019)</div>
+                        <div class="pub-citations">Citations: 25</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Evaluation of genotypic and hormone mediated callus induction and regeneration in sugarcane (Saccharum officinarum L.)</h3>
+                        <div class="pub-authors">MF Awan, <strong>MS Iqbal</strong>, MN Sharif, B Tabassum, M Tariq, S Murtaza, S Ali, et al.</div>
+                        <div class="pub-journal">Int. J. Bot. Stud 4 (6), 70-76 (2019)</div>
+                        <div class="pub-citations">Citations: 17</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Fine screening for resistance to cold-induced sweetening in a wild potato population</h3>
+                        <div class="pub-authors">A Ali, Q Ali, <strong>MS Iqbal</strong>, IA Nasir, X Wang</div>
+                        <div class="pub-journal">Applied Ecology & Environmental Research 17 (4) (2019)</div>
+                        <div class="pub-citations">Citations: 4</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Trackable CEMB-Klean Cotton Transgenic Technology: Affordable Climate Neutral Agri-biotech Industrialization for Developing Countries</h3>
+                        <div class="pub-authors">Z Qamar, M Tariq, T Rehman, <strong>MS Iqbal</strong>, MB Sarwar, MN Sharif, Z Hassan, et al.</div>
+                        <div class="pub-journal">Advancements in Life Sciences 6 (3), 131-138 (2019)</div>
+                        <div class="pub-citations">Citations: 11</div>
+                    </article>
+                </div>
+
+                <!-- Earlier (2013 - 2017) -->
+                <div class="year-block">
+                    <h2 class="year-heading">2013 – 2017 Key Publications</h2>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">In Silico MCMV Silencing Concludes Potential Host-Derived miRNAs in Maize</h3>
+                        <div class="pub-authors"><strong>MS Iqbal</strong>, B Jabbar, MN Sharif, Q Ali, T Husnain, IA Nasir</div>
+                        <div class="pub-journal">Frontiers in Plant Science 8, 372 (2017)</div>
+                        <div class="pub-citations">Citations: 38</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Prediction of Host-Derived miRNAs with the Potential to Target PVY in Potato Plants</h3>
+                        <div class="pub-authors"><strong>MS Iqbal</strong>, MN Hafeez, JI Wattoo, A Ali, MN Sharif, B Rashid, B Tabassum, et al.</div>
+                        <div class="pub-journal">Frontiers in Genetics 7, 159 (2016)</div>
+                        <div class="pub-citations">Citations: 26</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Detection of Endothelin 2 (Et-2) as a novel biomarker of renal dysfunction in patients of liver Cirrhosis with Ascites</h3>
+                        <div class="pub-authors">A Qureshi, K Zaigham, <strong>MS Iqbal</strong>, Q Ali</div>
+                        <div class="pub-journal">Advancements in Life Sciences 3 (4), 112-118 (2016)</div>
+                        <div class="pub-citations">Citations: 2</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Screening of potato germplasm resistant against low temperature sweetening</h3>
+                        <div class="pub-authors">A Ali, IA Nasir, A Muzaffar, <strong>M Shahzad Iqbal</strong>, AQ Rao, et al.</div>
+                        <div class="pub-journal">Journal of Food Quality 39 (4), 301-310 (2016)</div>
+                        <div class="pub-citations">Citations: 6</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Transformation and Evaluation of Cry1Ac+Cry2A and GTGene in Gossypium hirsutum L.</h3>
+                        <div class="pub-authors">AN Puspito, AQ Rao, MN Hafeez, <strong>MS Iqbal</strong>, KS Bajwa, Q Ali, B Rashid, et al.</div>
+                        <div class="pub-journal">Frontiers in Plant Science 6, 943 (2015)</div>
+                        <div class="pub-citations">Citations: 76</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Homology modeling, functional annotation and comparative genome analysis of GBSS enzyme in rice and maize genomes</h3>
+                        <div class="pub-authors">JI Wattoo, <strong>MS Iqbal</strong>, MA Muhammad Arif, ZS Zafar Saleem, MN Shahid, et al.</div>
+                        <div class="pub-journal">International Journal of Agriculture & Biology 17 (5), 1061-1065 (2015)</div>
+                        <div class="pub-citations">Citations: 9</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Correlation of renal ischemia with oxidative stress and generation of reactive nitrogen species</h3>
+                        <div class="pub-authors">K Zaigham, KAS Lutfullah, <strong>MS Iqbal</strong>, MZ Javed</div>
+                        <div class="pub-journal">Biomedical Letters 1 (1), 41-45 (2015)</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Role of genetic studies towards solving problems of human society</h3>
+                        <div class="pub-authors">S Zulfiqar, MN Hafeez, <strong>MS Iqbal</strong>, Q Ali</div>
+                        <div class="pub-journal">Nature Sci 13 (2015)</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Journal Article</span>
+                        <h3 class="pub-title">Detection of Endothelin (ET-1 and ET-3) as a novel biomarker of cardiovascular stress in patients of liver cirrhosis with ascites</h3>
+                        <div class="pub-authors">K Zaigham, I Fayyaz, KA Shahzad, MI Khan, <strong>MS Iqbal</strong>, M Ameen, A Ayub, et al.</div>
+                        <div class="pub-journal">Biomedical Letters 1 (1), 46-51 (2015)</div>
+                    </article>
+
+                    <article class="pub-card">
+                        <span class="pub-type">Review Article</span>
+                        <h3 class="pub-title">Overview of acquired virus resistance in transgenic plants</h3>
+                        <div class="pub-authors">B Tabassum, Z Sher, M Tariq, A Khan, N Shahid, M Bilal, M Ramzan, <strong>MS Iqbal</strong>, et al.</div>
+                        <div class="pub-journal">Exp. Agricult. Horticult 2 (2), 12-28 (2013)</div>
+                        <div class="pub-citations">Citations: 12</div>
+                    </article>
+
+                </div>
+
             </div>
         </div>
-    </main>
+    </section>
 
     <footer class="footer">
-        <div class="container footer-content">
+        <div class="container">
             <p>© 2026 Dr. Muhammad Shahzad Iqbal. All rights reserved.</p>
-            <p class="footer-sub">Faculty of Life Sciences • Department of Biochemistry • University of Okara</p>
         </div>
     </footer>
 
